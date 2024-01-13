@@ -1,0 +1,41 @@
+#form-box {
+}
+
+#form-box .inputs-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 575px) {
+  #form-box .inputs-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+#form-box .inputs-wrapper .input {
+  padding: 0.4rem;
+  border: none;
+  font-family: vazir;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+}
+
+#form-box .inputs-wrapper .input::placeholder {
+  opacity: 0.6;
+}
+
+#form-box .contact-btn {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  background: #0091ff;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  transition: all 0.3s;
+}
+
+#form-box .contact-btn:hover {
+  background: #0c80d9;
+}

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: vazir;
+  background: #f9f9f9;
+}
+
+.app-container {
+  max-width: 1000px;
+  padding: 0 1rem;
+  margin: 1rem auto;
+}
